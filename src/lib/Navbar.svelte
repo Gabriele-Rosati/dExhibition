@@ -45,9 +45,9 @@
 
   <div class="hidden px-2 mx-2 navbar-center lg:flex">
     <div class="items-stretch hidden lg:flex">
-      <a href="/" class="btn btn-ghost btn-sm rounded-btn"> Bond </a>
-      <a href="/List" class="btn btn-ghost btn-sm rounded-btn"> List </a>
-      <a href="/Claim" class="btn btn-ghost btn-sm rounded-btn"> Claim </a>
+      <a href="/dExhibition/" class="btn btn-ghost btn-sm rounded-btn"> Bond </a>
+      <a href="/dExhibition/List" class="btn btn-ghost btn-sm rounded-btn"> List </a>
+      <a href="/dExhibition/Claim" class="btn btn-ghost btn-sm rounded-btn"> Claim </a>
     </div>
   </div>
 
@@ -77,7 +77,7 @@
 </div>
 
 <div>
-  <Route path="/List" component={List} />
-  <Route path="/Claim" component={Claim} />
-  <Route path="/" component={Home} />
+  <Route path="/dExhibition/List" component={List} />
+  <Route path="/dExhibition/Claim" component={Claim} />
+  <Route path="/dExhibition/" component={Home} />
 </div>

@@ -10,12 +10,12 @@
     let user = Moralis.User.current();
     if (!user) {
       user = await Moralis.authenticate();
-      window.location.href = "/";
+      window.location.href = "/dExhibition/";
     }
   }
   async function logOut() {
     await Moralis.User.logOut();
-    window.location.href = "/";
+    window.location.href = "/dExhibition/";
   }
 </script>
 
